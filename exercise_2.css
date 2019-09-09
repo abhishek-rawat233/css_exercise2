@@ -1,9 +1,9 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 2px solid #db2927;
-    padding: 2px 5px;
-    overflow:auto;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #db2927;
+  padding: 2px 5px;
+  overflow:auto;
 }
 .line {
   position: static;
