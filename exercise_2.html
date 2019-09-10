@@ -11,7 +11,7 @@
       <img class="logo" src="vinsol-logo.png" alt="Vinsol Logo" />
     </div>
     <div class="details">
-      <p>Email us at: <a href="">sales@vinsol.com</a> Skype: <a href="">Vinsol</a></p>
+      <p>Email us at: <a href="mailto:sales@vinsol.com">sales@vinsol.com</a> Skype: <a href="https://www.skype.com">Vinsol</a></p>
     </div>
   </div>
   <section class="form-section">
@@ -20,24 +20,24 @@
       <form action="">
         <div class="form-group">
           <label for="firstname">First Name</label>
-          <input type="text" name="firstname" />
+          <input type="text" id="firstname" name="firstname" />
         </div>
         <div class="form-group">
           <label for="lastname">Last Name</label>
-          <input type="text" name="lastname" />
+          <input type="text" id="lastname" name="lastname" />
         </div>
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" name="email" />
+          <input type="email" id="email" name="email" />
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" name="password" />
+          <input type="password" id="password" name="password" />
         </div>
         <div class="form-group">
           <label for="gender">Gender</label>
-          <label class="sex"><input type="radio" name="sex" checked/> Male</label>
-          <label class="sex"><input type="radio" name="sex" /> Female</label>
+          <label for="male" class="sex"><input type="radio" id="male" name="sex" checked/> Male</label>
+          <label for="female" class="sex"><input type="radio" id="female" name="sex" /> Female</label>
         </div>
         <div class="form-group">
           <label for="dob">Date of Birth</label>
@@ -128,7 +128,7 @@
         </div>
         <div class="form-group">
           <label for="address">Address</label>
-          <textarea name="address" id="" cols="32" rows="10"></textarea>
+          <textarea name="address" id="address" cols="32" rows="10"></textarea>
         </div>
       </form>
       <button class="submit">Submit Details</button>

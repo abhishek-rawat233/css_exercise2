@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -20,7 +25,7 @@
   width: 100%;
   display: inline-block;
   text-align: right;
-  padding-top: 35px;
+  padding-top: 56px;
 }
 
 .details p {
@@ -64,6 +69,7 @@ input {
   border-color: #b9b9b9;
   width: 360px;
   height: 25px;
+  border: 1px solid #ccc;
 }
 
 input[type="radio"] {
